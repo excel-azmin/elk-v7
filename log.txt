@@ -1,0 +1,10 @@
+2024/06/09 07:10:35 routes.go:1008: INFO server config env="map[OLLAMA_DEBUG:false OLLAMA_LLM_LIBRARY: OLLAMA_MAX_LOADED_MODELS:1 OLLAMA_MAX_QUEUE:512 OLLAMA_MAX_VRAM:0 OLLAMA_NOPRUNE:false OLLAMA_NUM_PARALLEL:1 OLLAMA_ORIGINS:[http://localhost https://localhost http://localhost:* https://localhost:* http://127.0.0.1 https://127.0.0.1 http://127.0.0.1:* https://127.0.0.1:* http://0.0.0.0 https://0.0.0.0 http://0.0.0.0:* https://0.0.0.0:*] OLLAMA_RUNNERS_DIR: OLLAMA_TMPDIR:]"
+time=2024-06-09T07:10:35.581Z level=INFO source=images.go:704 msg="total blobs: 6"
+time=2024-06-09T07:10:35.587Z level=INFO source=images.go:711 msg="total unused blobs removed: 0"
+time=2024-06-09T07:10:35.587Z level=INFO source=routes.go:1054 msg="Listening on [::]:11434 (version 0.1.38)"
+time=2024-06-09T07:10:35.588Z level=INFO source=payload.go:30 msg="extracting embedded files" dir=/tmp/ollama3474387010/runners
+time=2024-06-09T07:10:38.187Z level=INFO source=payload.go:44 msg="Dynamic LLM libraries [cpu cpu_avx cpu_avx2 cuda_v11 rocm_v60002]"
+time=2024-06-09T07:10:38.193Z level=WARN source=amd_linux.go:48 msg="ollama recommends running the https://www.amd.com/en/support/linux-drivers" error="amdgpu version file missing: /sys/module/amdgpu/version stat /sys/module/amdgpu/version: no such file or directory"
+time=2024-06-09T07:10:38.195Z level=WARN source=amd_linux.go:163 msg="amdgpu too old gfx000" gpu=0
+time=2024-06-09T07:10:38.195Z level=INFO source=amd_linux.go:311 msg="no compatible amdgpu devices detected"
+time=2024-06-09T07:10:38.195Z level=INFO source=types.go:71 msg="inference compute" id=0 library=cpu compute="" driver=0.0 name="" total="27.3 GiB" available="23.1 GiB"
